@@ -103,7 +103,9 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
-Solution
+ 
+ 
+
 
 
 6. Sum and Difference
@@ -133,7 +135,27 @@ b = 1
 Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
-Solution
+
+// var sum = 16
+var diff = 4
+
+
+var a = (sum + diff) / 2
+print(a) // 10
+
+
+var b = sum - a
+print(b) // 6
+
+sum = 2
+diff = 0
+a = (sum + diff) / 2
+print(a) // 1
+
+b = sum - a
+print(b) // 1
+
+
 7. Swap Values
 Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
 
