@@ -280,6 +280,19 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 
+//var x = 17
+var applesUsed = 0
+
+var apples = x % 5 // 2 apples left
+var oranges = (x / 5 ) * 3 // 9 oranges acquired from trade
+
+x = 25
+applesUsed = 0
+
+apples = x % 5 // 0
+oranges = (x / 5 ) * 3 // 15
+
+
 12. Boy and Girl Percentages
 A class consists of numberOfBoys boys and numberOfGirls girls.
 
@@ -298,25 +311,35 @@ Output:
 75 // percentage of girls
 
 
+//
+let boys = 60
+let girls = 20
+let total = boys + girls
+let percentageBoys = (boys * 100) / total
+let percentageGirls = (girls * 100) / total
+
+print(percentageBoys)
+print(percentageGirls)
+
 
 13. Boolean Evaluations 2
 Which of the following expressions evaluate to true?
 
-a. false || true
-b. false && true
-c. !false
-d. !!!true
-e. !(true && true)
+a. false || true         // true
+b. false && true        // false
+c. !false                   //true
+d. !!!true              //false
+e. !(true && true)          //false
 
 
 
 14. Boolean Evaluations 3
 Which of the following expressions evaluate to true?
 
-a. 9 == 2
-b. "Hello!" == "Hello!"
-c. 19.0 >= 19.0
-d. 9 > 7 && 7 < 10
+a. 9 == 2 // false
+b. "Hello!" == "Hello!" // true
+c. 19.0 >= 19.0 // false
+d. 9 > 7 && 7 < 10  // true
 
 
 
