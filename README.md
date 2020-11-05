@@ -70,7 +70,10 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
-Solution
+
+// var secondsInAYear = (24 * 60 * 60) * 365
+print(secondsInYear)
+
 5. Number of Pixels
 Your are given the width and height of a screen in pixels. Calculate the total number of pixels on the screen and store the result in a variable named numberOfPixels.
 
@@ -101,6 +104,8 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 Solution
+
+
 6. Sum and Difference
 You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
 
