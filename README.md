@@ -175,7 +175,18 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
-Solution
+
+//  var a = 1
+  var b = 2
+
+let num = a
+a = b
+b = num
+print(a)
+print(b)
+
+
+
 8. Find last number
 You are given a number a. Print the last digit of a.
 
@@ -197,7 +208,9 @@ Output:
 
 Hint:
 Use the remainder % operator.
-Solution
+
+
+
 9. Dog Years
 You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
 
@@ -207,7 +220,9 @@ var rockysAgeInDogYears = 50
 
 Output:
 7
-Solution
+
+
+
 10. Alice's Age
 x years from now Alice will be y times older than her brother Bob. Bob is 12 years old. How old is Alice?
 
@@ -238,7 +253,8 @@ alice = 38
 Hint:
 alice + x = y * (bob + x)
 Solve for alice
-Solution
+
+
 11. Trading Oranges for Apples
 You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit. How many oranges can you get from Bob and how many apples will you have left? The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
 
@@ -262,7 +278,8 @@ oranges = 15
 
 Hint:
 Use the division(/) and the remainder(%) operator
-Solution
+
+
 12. Boy and Girl Percentages
 A class consists of numberOfBoys boys and numberOfGirls girls.
 
@@ -279,7 +296,9 @@ var numberOfGirls = 60
 Output:
 25 // percentage of boys
 75 // percentage of girls
-Solution
+
+
+
 13. Boolean Evaluations 2
 Which of the following expressions evaluate to true?
 
@@ -288,7 +307,9 @@ b. false && true
 c. !false
 d. !!!true
 e. !(true && true)
-Solution
+
+
+
 14. Boolean Evaluations 3
 Which of the following expressions evaluate to true?
 
@@ -296,14 +317,18 @@ a. 9 == 2
 b. "Hello!" == "Hello!"
 c. 19.0 >= 19.0
 d. 9 > 7 && 7 < 10
-Solution
+
+
+
 15. Class Average
 You are given three grades obtained by 3 students, which are stored in variables grade1, grade2, grade3 and all of type Double. Create a variable called yourGrade of type Double and give it a value. Print "above average" if your grade is greater than the class average or "below average" otherwise.
 
 var grade1 = 7.0
 var grade2 = 9.0
 var grade3 = 5.0
-Solution
+
+
+
 16. Even or Odd
 You are given a number. Print even if the number is even or odd otherwise.
 
